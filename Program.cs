@@ -10,10 +10,14 @@ namespace Arrays
     {
         static void Main( string[] args )
         {
-            var array = new int[5];
+            int count = int.Parse( Console.ReadLine() );
 
-            for ( int i = 0; i < array.Length; i++ )
-                array[i] = (i + 1) * (i + 1);
+            Console.WriteLine();
+
+            //int[] array = EvenArray.GetFirstEvenNumbersForOneLine( count );
+            var array = new int[count];
+
+            FirstStep.SquareOfNumbers( ref array );
 
             foreach(var item in array)
                 Console.WriteLine(item);
