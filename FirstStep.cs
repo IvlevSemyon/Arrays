@@ -8,7 +8,7 @@ namespace Arrays
 {
     internal class FirstStep
     {
-        internal static void EvenArray( ref int[] array )
+        internal static void SquareArray( ref int[] array )
         {
             for ( int i = 0; i < array.Length; i++ )
                 array[i] = ( i + 1 ) * ( i + 1 );

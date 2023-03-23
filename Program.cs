@@ -17,7 +17,7 @@ namespace Arrays
             //int[] array = EvenArray.GetFirstEvenNumbersForOneLine( count );
             var array = new int[count];
 
-            FirstStep.SquareOfNumbers( ref array );
+            FirstStep.SquareArray( ref array );
 
             foreach(var item in array)
                 Console.WriteLine(item);
